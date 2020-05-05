@@ -26,29 +26,16 @@ namespace MicrosoftSolution
                     Version = "v1",
                     Title = "ToDo API",
                     Description = "A simple example ASP.NET Core Web API",
-<<<<<<< HEAD
-=======
-                    TermsOfService = new Uri("https://example.com/terms"),
->>>>>>> e94ccf3... * Project Str. Enabled while adding Swagger 2.0
                     Contact = new OpenApiContact
                     {
-                        Name = "Shayne Boyer",
+                        Name = "Devesh Kumar",
                         Email = string.Empty,
-<<<<<<< HEAD
                         Url = new Uri("https://twitter.com/i_amdevesh"),
                     },
                     License = new OpenApiLicense
                     {
-                        Name = "Use under Apache",
-                        Url = new Uri("https://www.apache.org/licenses/LICENSE-2.0.txt"),
-=======
-                        Url = new Uri("https://twitter.com/spboyer"),
-                    },
-                    License = new OpenApiLicense
-                    {
-                        Name = "Use under LICX",
-                        Url = new Uri("https://example.com/license"),
->>>>>>> e94ccf3... * Project Str. Enabled while adding Swagger 2.0
+                        Name = "Mozilla Public License Version 2.0",
+                        Url = new Uri("https://github.com/SeptBlast/MicrosoftCASB_Solution/blob/master/LICENSE"),
                     }
                 });
 

@@ -4,10 +4,8 @@
 // 	Date : 05-05-2020
 //
 using Microsoft.AspNetCore.Builder;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
-using TodoApi.Models;
 
 namespace ToDoApi
 {
@@ -16,8 +14,6 @@ namespace ToDoApi
         #region snippet_ConfigureServices
         public void ConfigureServices(IServiceCollection services)
         {
-            //services.AddDbContext<TodoContext>(opt =>
-            //    opt.UseInMemoryDatabase("TodoList"));
             services.AddControllers();
 
             // Register the Swagger generator, defining 1 or more Swagger documents
